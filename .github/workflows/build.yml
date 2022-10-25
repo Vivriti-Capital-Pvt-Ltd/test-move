@@ -1,7 +1,7 @@
 name: Build
 on:
   push:
-    branches:
+    branches: main
       - master # or the name of your main branch
   pull_request:
     types: [opened, synchronize, reopened]
